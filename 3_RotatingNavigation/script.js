@@ -10,7 +10,11 @@ open.addEventListener('click', () => container.classList.add('show-nav'))
 close.addEventListener('click', () => container.classList.remove('show-nav'))
 
  // console.log(container)
+ console.log(boom_button)
 boom_button.addEventListener('click',()=>{
+	boom_button.style.cursor = 'not-allowed'
+	boom_button.style.color = 'black'
+	boom_button.disabled = true
 	click.play()
 	setTimeout(function() {
   		explode.play()
