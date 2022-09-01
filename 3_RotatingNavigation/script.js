@@ -5,12 +5,10 @@ const explodeable = document.querySelectorAll('.explodeable')
 const boom_button = document.getElementById('erase')
 const click = new Audio('detonate.m4a')
 const explode = new Audio('explosion.mp3')
-console.log(click)
+
 open.addEventListener('click', () => container.classList.add('show-nav'))
 close.addEventListener('click', () => container.classList.remove('show-nav'))
 
- // console.log(container)
- console.log(boom_button)
 boom_button.addEventListener('click',()=>{
 	boom_button.style.cursor = 'not-allowed'
 	boom_button.style.color = 'black'
