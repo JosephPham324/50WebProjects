@@ -1,6 +1,4 @@
-const open = document.getElementById('open')
-const close = document.getElementById('close')
-const container = document.querySelectorAll('.container')
+const btn = document.querySelector('.btn')
+const searchBar = document.querySelector('.search')
 
-open.addEventListener('click', () =>container.classList.add('show-nav'))
-close.addEventListener('click', () =>container.classList.remove('show-nav'))
+btn.addEventListener('click', ()=>searchBar.classList.toggle('active'))
