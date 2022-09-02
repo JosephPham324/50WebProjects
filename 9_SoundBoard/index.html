@@ -5,27 +5,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Form Wave Animation</title>
+	<title>Sound board</title>
 </head>
 <body>
-	<div class="container">
-		<h1>Please log in</h1>
-		<form>
-			<div class="form-control">
-			    <input type="text" required>
-				<label>Email</label>
-			</div>
-			<div class="form-control">
-				<input type="password" required>
-			<label>Password</label>
-			</div>
-			
-			<button class="btn">Log in</button>
+	<div class="audio">
+		<audio src="sounds/GoodbyeJojo.mp3" id="goodbyejojo"></audio>
+		<audio src="sounds/mrjoestar.mp3" id="mrjoestar"></audio>
+		<audio src="sounds/yesyesyes.mp3" id="yesyesyes"></audio>
+		<audio src="sounds/ora.mp3" id="ora"></audio>
+		<audio src="sounds/theworld!.mp3" id="theworld"></audio>
+		<audio src="sounds/wry.mp3" id="wry"></audio>
+	</div>
+	
+	<div id="buttons">
 
-			<p class="text">Don't have an account? <a href="#">Register</a></p>
-		</form>
-	</div>							
-
+	</div>
+	<div class="control">
+		<button id="mode" class="one">PLAY ONE</button>
+	</div>
 	<script src="script.js"></script>
 </body>
 </html>

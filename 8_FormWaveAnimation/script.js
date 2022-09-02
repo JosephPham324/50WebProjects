@@ -6,5 +6,3 @@ labels.forEach(label => {
 						.map((letter, idx) => `<span style = 'transition-delay: ${idx * 80}ms'>${letter}</span>`)
 						.join('')
 })
-
-// const spans = document.querySelectorAll('span')
