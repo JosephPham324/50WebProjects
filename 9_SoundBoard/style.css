@@ -18,6 +18,10 @@ body{
 	margin: 0;
 }
 
+h1,h2{
+	color: #1EFA95;
+}
+
 .btn{
 	background-color: rebeccapurple;
 	border-radius: 5px;
