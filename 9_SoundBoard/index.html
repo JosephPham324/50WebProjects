@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Sound board</title>
 </head>
@@ -22,7 +22,17 @@
 	</div>
 	<div class="control">
 		<button id="mode" class="one">PLAY ONE</button>
+		<select name="trackSelect" id="track">
+			<option value="goodbyejojo">Goodbye JoJo</option>
+			<option value="mrjoestar">Mr Joestar</option>
+			<option value="yesyesyes">Yes yes yes yes!</option>
+			<option value="ora">Ora ora ora</option>
+			<option value="theworld">The World!</option>
+			<option value="wry">Wryyyyyyyy</option>
+		</select>
+
 	</div>
+	<button id="play"><i class="fa-solid fa-caret-right"></i></button>
 	<script src="script.js"></script>
 </body>
 </html>

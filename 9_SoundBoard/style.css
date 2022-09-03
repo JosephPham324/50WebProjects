@@ -47,6 +47,7 @@ body{
 	font-size: 2rem;
 	color: #fff;
 	cursor: pointer;
+	margin-right: 20px;
 }
 #mode:hover{
 	opacity: 0.9;
@@ -54,4 +55,40 @@ body{
 
 .one{
 	background-color: #F95D5D;
+}
+
+#track{
+	width: 200px;
+	height: 80px;
+	background-color: rgba(104,201,242,0.7);
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	margin: 0;
+	margin-right: 20px;
+}
+
+#play{
+	width: 80px;
+	height: 80px;
+	font-size: 4rem;
+	font-family: inherit;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 0;
+	margin: 20px auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: translateX(-20%);
+}
+#play:hover{
+	opacity: 0.9;
+}
+
+#play:active{
+	font-size: 4.1rem;
 }
