@@ -12,6 +12,8 @@ mode.addEventListener('click',()=>{
 		play.addEventListener('click',()=>playAll())
 		select.style.display = 'none'
 	} else {
+		stopSongs()
+		clearTimeouts()
 		mode.innerText = 'PLAY ONE'
 		play = cloneNode('play')
 		play.addEventListener('click',()=>playOne())
@@ -59,6 +61,22 @@ function stopSong(current){
 		const song = document.getElementById(current);
 		song.pause()
 		song.currentTime = 0
+	}
+}
+
+function stopSongs(){
+	sounds.forEach(sound=>{
+		const song = document.getElementById(sound);
+		song.pause()
+		song.currentTime = 0;
+	})
+}
+
+function clearTimeouts(){
+	var id = window.setTimeout(function() {}, 0);
+
+	while (id--) {
+	    window.clearTimeout(id); // will do nothing if no timeout with id is present
 	}
 }
 
