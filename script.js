@@ -13,9 +13,14 @@ const links = [
 const button = document.getElementById('go')
 const select = document.getElementById('select')
 button.href = links[select.value-1] + '/index.html'
-
+button.target = '_blank'
 
 
 select.addEventListener('change',()=>{
 	button.href = links[select.value-1] + '/index.html'
-})
+	if (links[select.value-1]!='#'){
+		button.target = '_blank'
+	} else {
+		button.target = ''
+	}
+}) 
