@@ -7,6 +7,7 @@ let play = document.getElementById('play')
 play.addEventListener('click',()=>playOne())
 mode.addEventListener('click',()=>{
 	if (mode.innerText == 'PLAY ONE'){
+		stopSongs()
 		mode.innerText = 'PLAY ALL'
 		play = cloneNode('play')
 		play.addEventListener('click',()=>playAll())
