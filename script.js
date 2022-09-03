@@ -1,5 +1,5 @@
 const links = ['1_ExpandingCards', '2_ProgressSteps', '3_RotatingNavigation', '4_HiddenSearchWidget', '#', '6_ScrollAnimation',
-'7_SplitLandingPage', '8_FormWaveAnimation', '9_SoundBoard', '#', 
+'7_SplitLandingPage', '8_FormWaveAnimation', '9_SoundBoard', '10_DadJokes', 
 
 '#', '#', '#', '#', '#', '#', '#', '#', '#', '#',
 
