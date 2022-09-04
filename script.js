@@ -7,7 +7,9 @@ const links = ['1_ExpandingCards', '2_ProgressSteps', '3_RotatingNavigation', '4
 
 '#', '#', '#', '#', '#', '#', '#', '#', '#', '#',
 
-'#', '#', '#', '#', '#', '#', '#', '#', '#', '#',
+'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', 
+
+'#'
 ]
 
 const button = document.getElementById('go')
