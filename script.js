@@ -21,6 +21,7 @@ button.target = '_blank'
 select.addEventListener('change',()=>{
 	control.log(select.value-1)
 	button.href = links[select.value-1] + '/index.html'
+	button.innerText = links[select.value-1] + '/index.html';
 	if (links[select.value-1]!='#'){
 		button.target = '_blank'
 	} else {
