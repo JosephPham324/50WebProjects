@@ -19,9 +19,7 @@ button.target = '_blank'
 
 
 select.addEventListener('change',()=>{
-	// console.log(select.value-1)
 	button.href = links[select.value-1] + '/index.html'
-	// button.innerHTML = links[select.value-1] + '/index.html';
 	if (links[select.value-1]!='#'){
 		button.target = '_blank'
 	} else {
