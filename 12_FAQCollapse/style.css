@@ -29,6 +29,7 @@ h1{
 	position: relative;
 	overflow: hidden;
 	transition: 0.3s ease;
+	cursor: pointer;
 }
 
 .faq.active{
@@ -79,19 +80,14 @@ h1{
 	right: 30px;
 	height: 30px;
 	width: 30px;
-	border-radius: 50%;
 }
 
-.faq-toggle .fa-times{
+.faq-toggle .fa-chevron-up{
 	display: none;
 }
-.faq.active .faq-toggle .fa-times{
-	color: white;
+.faq.active .faq-toggle .fa-chevron-up{
 	display: block;
 }
 .faq.active .faq-toggle .fa-chevron-down{
 	display: none;
-}
-.faq.active .faq-toggle{
-	background-color: #9fa4aa;
 }
