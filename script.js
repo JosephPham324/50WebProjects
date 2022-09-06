@@ -1,7 +1,7 @@
 const links = ['1_ExpandingCards', '2_ProgressSteps', '3_RotatingNavigation', '4_HiddenSearchWidget', 'https://josephpham324.github.io/HBD-TQT', '6_ScrollAnimation',
 '7_SplitLandingPage', '8_FormWaveAnimation', '9_SoundBoard', '10_DadJokes', 
 
-'11_EventKeyCodes', '12_FAQCollapse', '13_RandomChoicePicker', '#', '15_IncrementingCounter', '#', '#', '#', '#', '#',
+'11_EventKeyCodes', '12_FAQCollapse', '13_RandomChoicePicker', '14_AnimatedNavigation', '15_IncrementingCounter', '#', '#', '#', '#', '#',
 
 '#', '#', '#', '#', '#', '#', '#', '#', '#', '#',
 
