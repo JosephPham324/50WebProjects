@@ -6,7 +6,7 @@ content.addEventListener('input', ()=>{
 	const value = content.value
 
 	const choices = value.split(',')
-	tags.innerHTML = choices.map((choice)=>{if (choice!='')	return `<span class = "tag">${choice}</span>`})
+	tags.innerHTML = choices.map((choice)=>{if (choice.trim()!='')	return `<span class = "tag">${choice}</span>`})
 					   		.join('')
 })
 
