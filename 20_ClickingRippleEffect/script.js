@@ -8,17 +8,17 @@ buttons.forEach(button =>{
 		const buttonLeft = e.target.offsetLeft
 
 		const position = insidePosition(x,y,buttonLeft,buttonTop)
-		console.log(x + ' ' + y + ' ' + buttonLeft + ' ' + buttonTop)
-		console.log(position[0] + ' ' + position[1])
+
 		const span = document.createElement('span')
 		span.classList.add('circle')
-		span.style.top = `${position[1]}px`
-		span.style.left = `${position[0]}px`
-		button.append(span)
+		span.style.top = position[1]
+		span.style.left = position[0]
+
+		button.appendChild(span)
 		setTimeout(()=>button.removeChild(span),2000)
 	})
 })
 
 function insidePosition(clickX,clickY,buttonLeft,buttonTop){
-	return [clickX - buttonLeft, clickY - buttonTop]
+	return [`${clickX - buttonLeft}px`,`${clickY - buttonTop}px`]
 }
