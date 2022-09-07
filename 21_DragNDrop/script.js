@@ -11,9 +11,9 @@ for (const empty of empties){
 	empty.addEventListener('dragleave',dragLeave)
 }
 //fill
-function dragStart(){
-	this.className+=' hold'
-	setTimeout(()=>this.className = 'invisible', 0)
+function dragStart(e){
+		this.className+=' hold'
+		setTimeout(()=>this.className = 'invisible', 0)
 }
 //fill
 function dragEnd(){
