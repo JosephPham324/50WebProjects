@@ -12,17 +12,17 @@ body{
 	background-color: steelblue;
 }
 .empty{
-	height: 150px;
-	width: 150px;
+	height: 200px;
+	width: 200px;
 	margin: 10px;
 	border: solid 3px #000;
 	background-color: #fff;
 }
 
 .fill{
-	background-image: url('https:source.unsplash.com/random/151x151');
-	height: 145px;
-	width: 145px;
+	background-image: url('../logo.png');
+	height: 195px;
+	width: 195px;
 	cursor: pointer;
 }
 
