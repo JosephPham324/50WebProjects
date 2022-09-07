@@ -3,7 +3,7 @@ const links = ['01_ExpandingCards', '02_ProgressSteps', '03_RotatingNavigation',
 
 '11_EventKeyCodes', '12_FAQCollapse', '13_RandomChoicePicker', '14_AnimatedNavigation', '15_IncrementingCounter', '#', '#', '#', '#', '#',
 
-'#', '#', '#', '#', '#', '#', '#', '#', '#', '#',
+'21_DragNDrop', '#', '#', '#', '#', '#', '#', '#', '#', '#',
 
 '#', '#', '#', '#', '#', '#', '#', '#', '#', '#',
 
